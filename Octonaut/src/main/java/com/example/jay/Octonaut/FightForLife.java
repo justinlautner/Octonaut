@@ -135,7 +135,7 @@ public class FightForLife extends AppCompatActivity {
         SurfaceHolder holder;
         int enemy1Hit = 9, enemy2Hit = 9, enemy3Hit = 9, enemy4Hit = 9;
         boolean shot1 = false, shot2 = false, shot3 = false;
-        int aliensRemaining = 50,aliensEscaped = 0;
+        int aliensDefeated = 0,aliensEscaped = 0;
 
         public GameView(Context context) {
             super(context);
@@ -171,7 +171,7 @@ public class FightForLife extends AppCompatActivity {
             textPaint.setColor(Color.WHITE);
             textPaint.setTextSize(40);
             textPaint.setTypeface(Typeface.create("casual", Typeface.BOLD));
-            canvas.drawText("ALIENS REMAINING: " + aliensRemaining, 0, 50, textPaint);
+            canvas.drawText("ALIENS DEFEATED: " + aliensDefeated + "/50", 0, 50, textPaint);
             canvas.drawText("ALIENS ESCAPED: " + aliensEscaped + "/5", getWidth() - 400, 50, textPaint);
 
             canvas.drawBitmap(squidHero, squidHeroX, squidHeroY, drawPaint);
@@ -192,26 +192,18 @@ public class FightForLife extends AppCompatActivity {
 
             if (enemy1Hit < 8){
                 canvas.drawBitmap(explosion, enemy1XOld, enemy1YOld, drawPaint);
-                if (enemy1Hit == 0)
-                    aliensRemaining--;
                 enemy1Hit++;
             }
             if (enemy2Hit < 8){
                 canvas.drawBitmap(explosion, enemy2XOld, enemy2YOld, drawPaint);
-                if (enemy2Hit == 0)
-                    aliensRemaining--;
                 enemy2Hit++;
             }
             if (enemy3Hit < 8){
                 canvas.drawBitmap(explosion, enemy3XOld, enemy3YOld, drawPaint);
-                if (enemy3Hit == 0)
-                    aliensRemaining--;
                 enemy3Hit++;
             }
             if (enemy4Hit < 8){
                 canvas.drawBitmap(explosion, enemy4XOld, enemy4YOld, drawPaint);
-                if (enemy4Hit == 0)
-                    aliensRemaining--;
                 enemy4Hit++;
             }
 
@@ -240,25 +232,21 @@ public class FightForLife extends AppCompatActivity {
             if (enemy1Y > canvas.getHeight()){
                 enemy1X = (int) (Math.random() * getWidth() - 50);
                 enemy1Y = -200;
-                aliensRemaining--;
                 aliensEscaped++;
             }
             if (enemy2Y > canvas.getHeight()){
                 enemy2X = (int) (Math.random() * getWidth() - 50);
                 enemy2Y = -200;
-                aliensRemaining--;
                 aliensEscaped++;
             }
             if (enemy3Y > canvas.getHeight()){
                 enemy3X = (int) (Math.random() * getWidth() - 50);
                 enemy3Y = -200;
-                aliensRemaining--;
                 aliensEscaped++;
             }
             if (enemy4Y > canvas.getHeight()){
                 enemy4X = (int) (Math.random() * getWidth() - 50);
                 enemy4Y = -200;
-                aliensRemaining--;
                 aliensEscaped++;
             }
 
@@ -267,8 +255,8 @@ public class FightForLife extends AppCompatActivity {
                 Intent intent = new Intent(getContext(), GameOver.class);
                 getContext().startActivity(intent);
             }
-            if (aliensRemaining == 0){
-                winGameSound.play(winGameID, 1, 1, 0, 0, 1);
+            if (aliensDefeated == 50){
+                winGameSound.play(gameOverID, 1, 1, 0, 0, 1);
                 Intent intent = new Intent(getContext(), GameWin.class);
                 getContext().startActivity(intent);
             }
@@ -285,6 +273,7 @@ public class FightForLife extends AppCompatActivity {
                 waterBlastYVel = 0;
                 enemy1Hit = 0;
                 shot1 = false;
+                aliensDefeated++;
             }
             if (Rect.intersects(waterBlastRect2, enemy1Rect)){
                 bombSound.play(bombID, 1, 1, 0, 0, 1);
@@ -298,6 +287,7 @@ public class FightForLife extends AppCompatActivity {
                 waterBlast2YVel = 0;
                 enemy1Hit = 0;
                 shot2 = false;
+                aliensDefeated++;
             }
             if (Rect.intersects(waterBlastRect3, enemy1Rect)){
                 bombSound.play(bombID, 1, 1, 0, 0, 1);
@@ -311,6 +301,7 @@ public class FightForLife extends AppCompatActivity {
                 waterBlast3YVel = 0;
                 enemy1Hit = 0;
                 shot3 = false;
+                aliensDefeated++;
             }
             if (Rect.intersects(waterBlastRect, enemy2Rect)){
                 bombSound.play(bombID, 1, 1, 0, 0, 1);
@@ -324,6 +315,7 @@ public class FightForLife extends AppCompatActivity {
                 waterBlastYVel = 0;
                 enemy2Hit = 0;
                 shot1 = false;
+                aliensDefeated++;
             }
             if (Rect.intersects(waterBlastRect2, enemy2Rect)){
                 bombSound.play(bombID, 1, 1, 0, 0, 1);
@@ -337,6 +329,7 @@ public class FightForLife extends AppCompatActivity {
                 waterBlast2YVel = 0;
                 enemy2Hit = 0;
                 shot2 = false;
+                aliensDefeated++;
             }
             if (Rect.intersects(waterBlastRect3, enemy2Rect)){
                 bombSound.play(bombID, 1, 1, 0, 0, 1);
@@ -350,6 +343,7 @@ public class FightForLife extends AppCompatActivity {
                 waterBlast3YVel = 0;
                 enemy2Hit = 0;
                 shot3 = false;
+                aliensDefeated++;
             }
             if (Rect.intersects(waterBlastRect, enemy3Rect)){
                 bombSound.play(bombID, 1, 1, 0, 0, 1);
@@ -363,6 +357,7 @@ public class FightForLife extends AppCompatActivity {
                 waterBlastYVel = 0;
                 enemy3Hit = 0;
                 shot1 = false;
+                aliensDefeated++;
             }
             if (Rect.intersects(waterBlastRect2, enemy3Rect)){
                 bombSound.play(bombID, 1, 1, 0, 0, 1);
@@ -376,6 +371,7 @@ public class FightForLife extends AppCompatActivity {
                 waterBlast2YVel = 0;
                 enemy3Hit = 0;
                 shot2 = false;
+                aliensDefeated++;
             }
             if (Rect.intersects(waterBlastRect3, enemy3Rect)){
                 bombSound.play(bombID, 1, 1, 0, 0, 1);
@@ -389,6 +385,7 @@ public class FightForLife extends AppCompatActivity {
                 waterBlast3YVel = 0;
                 enemy3Hit = 0;
                 shot3 = false;
+                aliensDefeated++;
             }
             if (Rect.intersects(waterBlastRect, enemy4Rect)){
                 bombSound.play(bombID, 1, 1, 0, 0, 1);
@@ -402,6 +399,7 @@ public class FightForLife extends AppCompatActivity {
                 waterBlastYVel = 0;
                 enemy4Hit = 0;
                 shot1 = false;
+                aliensDefeated++;
             }
             if (Rect.intersects(waterBlastRect2, enemy4Rect)){
                 bombSound.play(bombID, 1, 1, 0, 0, 1);
@@ -415,6 +413,7 @@ public class FightForLife extends AppCompatActivity {
                 waterBlast2YVel = 0;
                 enemy4Hit = 0;
                 shot2 = false;
+                aliensDefeated++;
             }
             if (Rect.intersects(waterBlastRect3, enemy4Rect)){
                 bombSound.play(bombID, 1, 1, 0, 0, 1);
@@ -428,6 +427,7 @@ public class FightForLife extends AppCompatActivity {
                 waterBlast3YVel = 0;
                 enemy4Hit = 0;
                 shot3 = false;
+                aliensDefeated++;
             }
 
             enemy1Y += enemy1YSpeed;

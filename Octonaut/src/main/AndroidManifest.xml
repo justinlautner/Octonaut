@@ -17,12 +17,13 @@
             </intent-filter>
         </activity>
         <activity android:name=".GameOver"
-            android:theme="@style/AppTheme">
+            android:theme="@style/AppThemeFullscreen">
         </activity>
-        <activity android:name=".GameWin"
-            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".GameWin"
+            android:theme="@style/AppThemeFullscreen" />
         <activity android:name=".FightForLife"
-            android:theme="@style/AppTheme">
+            android:theme="@style/AppThemeFullscreen">
         </activity>
     </application>
 

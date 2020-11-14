@@ -14,7 +14,7 @@ import android.graphics.Rect;
 import android.graphics.Typeface;
 import android.media.AudioManager;
 import android.media.SoundPool;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.SurfaceHolder;

@@ -1,0 +1,4 @@
+com/example/jay/Octonaut/test/BuildConfig.java
+ com.example.jay.Octonaut.test.BuildConfig
+com/example/jay/Octonaut/ExampleInstrumentedTest.java
+ com.example.jay.Octonaut.ExampleInstrumentedTest

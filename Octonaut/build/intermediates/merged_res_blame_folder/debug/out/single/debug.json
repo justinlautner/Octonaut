@@ -1,0 +1,134 @@
+[
+    {
+        "merged": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/build/intermediates/res/merged/debug/drawable-v24_star_sprite.png.flat",
+        "source": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/res/drawable-v24/star_sprite.png"
+    },
+    {
+        "merged": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/build/intermediates/res/merged/debug/drawable-v24_alien_saucer.png.flat",
+        "source": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/res/drawable-v24/alien_saucer.png"
+    },
+    {
+        "merged": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/build/intermediates/res/merged/debug/drawable-v24_planet_destruction.jpg.flat",
+        "source": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/res/drawable-v24/planet_destruction.jpg"
+    },
+    {
+        "merged": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/build/intermediates/res/merged/debug/drawable-v24_explosion_sprite.png.flat",
+        "source": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/res/drawable-v24/explosion_sprite.png"
+    },
+    {
+        "merged": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/build/intermediates/res/merged/debug/drawable-v24_water_sprite.png.flat",
+        "source": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/res/drawable-v24/water_sprite.png"
+    },
+    {
+        "merged": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/build/intermediates/res/merged/debug/layout_game_over.xml.flat",
+        "source": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/res/layout/game_over.xml"
+    },
+    {
+        "merged": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/build/intermediates/res/merged/debug/drawable-v24_galaxy.jpg.flat",
+        "source": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/res/drawable-v24/galaxy.jpg"
+    },
+    {
+        "merged": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/build/intermediates/res/merged/debug/layout_startup_screen.xml.flat",
+        "source": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/res/layout/startup_screen.xml"
+    },
+    {
+        "merged": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/build/intermediates/res/merged/debug/layout_game_win.xml.flat",
+        "source": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/res/layout/game_win.xml"
+    },
+    {
+        "merged": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/build/intermediates/res/merged/debug/drawable-v24_octo.jpg.flat",
+        "source": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/res/drawable-v24/octo.jpg"
+    },
+    {
+        "merged": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/build/intermediates/res/merged/debug/drawable-v24_ship_sprite.png.flat",
+        "source": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/res/drawable-v24/ship_sprite.png"
+    },
+    {
+        "merged": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/build/intermediates/res/merged/debug/drawable-v24_space_squid.png.flat",
+        "source": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/res/drawable-v24/space_squid.png"
+    },
+    {
+        "merged": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/build/intermediates/res/merged/debug/drawable_spaceship.png.flat",
+        "source": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/res/drawable/spaceship.png"
+    },
+    {
+        "merged": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/res/drawable/ic_launcher_background.xml"
+    }
+]

@@ -1,0 +1,69 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.jay.Octonaut"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/AndroidManifest.xml:5:5-27:19
+12        android:allowBackup="true"
+12-->/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+13-->[com.android.support:support-compat:28.0.0] /home/jay/.gradle/caches/transforms-2/files-2.1/f8a397328201698168ace7f239d1330f/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+14        android:debuggable="true"
+15        android:extractNativeLibs="false"
+16        android:icon="@mipmap/ic_launcher"
+16-->/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/AndroidManifest.xml:7:9-43
+17        android:label="@string/app_name"
+17-->/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/AndroidManifest.xml:8:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/AndroidManifest.xml:9:9-54
+19        android:supportsRtl="true"
+19-->/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/AndroidManifest.xml:10:9-35
+20        android:testOnly="true" >
+21        <activity
+21-->/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/AndroidManifest.xml:11:9-18:20
+22            android:name="com.example.jay.Octonaut.MainActivity"
+22-->/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/AndroidManifest.xml:11:19-47
+23            android:theme="@style/AppThemeFullscreen" >
+23-->/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/AndroidManifest.xml:12:13-54
+24            <intent-filter>
+24-->/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/AndroidManifest.xml:13:13-17:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/AndroidManifest.xml:14:17-69
+25-->/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/AndroidManifest.xml:14:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/AndroidManifest.xml:16:17-77
+27-->/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/AndroidManifest.xml:16:27-74
+28            </intent-filter>
+29        </activity>
+30        <activity
+30-->/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/AndroidManifest.xml:19:9-21:20
+31            android:name="com.example.jay.Octonaut.GameOver"
+31-->/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/AndroidManifest.xml:19:19-43
+32            android:theme="@style/AppTheme" >
+32-->/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/AndroidManifest.xml:20:13-44
+33        </activity>
+34        <activity
+34-->/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/AndroidManifest.xml:22:9-23:56
+35            android:name="com.example.jay.Octonaut.GameWin"
+35-->/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/AndroidManifest.xml:22:19-42
+36            android:theme="@style/AppTheme" />
+36-->/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/AndroidManifest.xml:23:13-44
+37        <activity
+37-->/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/AndroidManifest.xml:24:9-26:20
+38            android:name="com.example.jay.Octonaut.FightForLife"
+38-->/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/AndroidManifest.xml:24:19-47
+39            android:theme="@style/AppTheme" >
+39-->/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/src/main/AndroidManifest.xml:25:13-44
+40        </activity>
+41    </application>
+42
+43</manifest>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.jay.Octonaut">
+    package="com.justinlautner.octonaut">
 
     <application
         android:allowBackup="true"
@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true">
-        <activity android:name=".MainActivity"
+        <activity android:name="com.justinlautner.octonaut.MainActivity"
             android:theme="@style/AppThemeFullscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,13 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".GameOver"
+        <activity android:name="com.justinlautner.octonaut.GameOver"
             android:theme="@style/AppThemeFullscreen">
         </activity>
         <activity
-            android:name=".GameWin"
+            android:name="com.justinlautner.octonaut.GameWin"
             android:theme="@style/AppThemeFullscreen" />
-        <activity android:name=".FightForLife"
+        <activity android:name="com.justinlautner.octonaut.FightForLife"
             android:theme="@style/AppThemeFullscreen">
         </activity>
     </application>

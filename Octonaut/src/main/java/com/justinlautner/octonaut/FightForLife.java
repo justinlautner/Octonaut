@@ -1,4 +1,4 @@
-package com.example.jay.Octonaut;
+package com.justinlautner.octonaut;
 
 import android.content.Context;
 import android.content.Intent;

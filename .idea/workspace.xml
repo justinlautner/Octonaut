@@ -21,40 +21,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="022ca22c-357a-4f7f-a7fb-bab8bf815135" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Octonaut/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Octonaut/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Octonaut/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Octonaut/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/Octonaut/proguard-rules.pro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Octonaut/src/androidTest/java/com/example/jay/Octonaut/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Octonaut/src/androidTest/java/com/example/jay/Octonaut/ExampleInstrumentedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Octonaut/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Octonaut/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Octonaut/src/main/java/com/example/jay/Octonaut/FightForLife.java" beforeDir="false" afterPath="$PROJECT_DIR$/Octonaut/src/main/java/com/example/jay/Octonaut/FightForLife.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Octonaut/src/main/java/com/example/jay/Octonaut/GameOver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Octonaut/src/main/java/com/example/jay/Octonaut/GameOver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Octonaut/src/main/java/com/example/jay/Octonaut/GameWin.java" beforeDir="false" afterPath="$PROJECT_DIR$/Octonaut/src/main/java/com/example/jay/Octonaut/GameWin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Octonaut/src/main/java/com/example/jay/Octonaut/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Octonaut/src/main/java/com/example/jay/Octonaut/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Octonaut/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Octonaut/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Octonaut/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Octonaut/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Octonaut/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Octonaut/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Octonaut/src/main/res/layout/game_over.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Octonaut/src/main/res/layout/game_over.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Octonaut/src/main/res/layout/game_win.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Octonaut/src/main/res/layout/game_win.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Octonaut/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Octonaut/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Octonaut/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Octonaut/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Octonaut/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Octonaut/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Octonaut/src/main/res/values/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Octonaut/src/main/res/values/ic_launcher_background.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Octonaut/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Octonaut/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Octonaut/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Octonaut/src/main/res/values/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Octonaut/src/test/java/com/example/jay/Octonaut/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Octonaut/src/test/java/com/example/jay/Octonaut/ExampleUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-    </list>
+    <list default="true" id="022ca22c-357a-4f7f-a7fb-bab8bf815135" name="Default Changelist" comment="Minor updates to GUI, Reversioning of project architecture" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -124,10 +91,11 @@
     <option name="LAST_EDITED_BUILD_TYPE" value="release" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Octonaut/src/main/res/drawable" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Octonaut/src/main/res/drawable" />
     </key>
   </component>
@@ -286,6 +254,14 @@
       <option name="presentableId" value="Default" />
       <updated>1553292245727</updated>
     </task>
+    <task id="LOCAL-00001" summary="Minor updates to GUI, Reversioning of project architecture">
+      <created>1605382513915</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605382513915</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -299,6 +275,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Minor updates to GUI, Reversioning of project architecture" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor updates to GUI, Reversioning of project architecture" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2749" y="525" width="599" height="799" key="#Octonaut" timestamp="1605379021577">

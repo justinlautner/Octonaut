@@ -1,4 +1,0 @@
-#Fri Jun 21 18:31:00 CDT 2019
-base.0=/mnt/Entertainment/Libraries/Coding-Projects/AndroidStudioProjects/Octonaut/Octonaut/build/intermediates/transforms/dexMerger/debug/7
-path.0=classes.dex
-renamed.0=classes.dex

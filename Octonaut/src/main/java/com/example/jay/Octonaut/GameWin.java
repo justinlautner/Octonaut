@@ -13,6 +13,7 @@ public class GameWin extends AppCompatActivity {
     }
 
     public void onButtonPress(View view){
+        //Reset game to home screen
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }

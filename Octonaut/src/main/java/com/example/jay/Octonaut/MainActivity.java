@@ -13,11 +13,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void affirmative(View view){
+        //User decision to start game
         Intent intent = new Intent(this, FightForLife.class);
         startActivity(intent);
     }
 
     public void refuse(View view){
+        //User decision to avoid game
         Intent intent = new Intent(this, GameOver.class);
         startActivity(intent);
     }

@@ -38,7 +38,6 @@ public class FightForLife extends AppCompatActivity {
     int enemy2X, enemy2Y = -300, enemy2YSpeed = 10, enemy2XOld, enemy2YOld;
     int enemy3X, enemy3Y = -400, enemy3YSpeed = 10, enemy3XOld, enemy3YOld;
     int enemy4X, enemy4Y = -500, enemy4YSpeed = 10, enemy4XOld, enemy4YOld;
-    int backgroundStarX = 100, backgroundStarY = 100;
     int squidHeroX, squidHeroY;
     int waterBlastX, waterBlastY, waterBlastXEnd, waterBlastYEnd;
     int waterBlast2X, waterBlast2Y;
@@ -58,8 +57,6 @@ public class FightForLife extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-
 
         gameView = new GameView(this);
         this.setContentView(gameView);
@@ -102,19 +99,19 @@ public class FightForLife extends AppCompatActivity {
             e.printStackTrace();
         }
 
-        int width = getScreenWidth() - 100;
+        int width = getScreenWidth();
         int height = getScreenHeight();
         enemy1X = (int) (Math.random() * width + 50);
         enemy2X = (int) (Math.random() * width + 50);
         enemy3X = (int) (Math.random() * width + 50);
         enemy4X = (int) (Math.random() * width + 50);
-        waterBlastX = width/2 + 40;
+        waterBlastX = width/2;
         waterBlastY = height - 260;
-        waterBlast2X = width/2 + 40;
+        waterBlast2X = width/2;
         waterBlast2Y = height - 260;
-        waterBlast3X = width/2 + 40;
+        waterBlast3X = width/2;
         waterBlast3Y = height - 260;
-        squidHeroX = width/2 - 55;
+        squidHeroX = width/2 - 50; // To offset sprite size differential
         squidHeroY = height - 210;
     }
 
@@ -169,19 +166,19 @@ public class FightForLife extends AppCompatActivity {
 
             textPaint.setAlpha(255);
             textPaint.setColor(Color.WHITE);
-            textPaint.setTextSize(40);
+            textPaint.setTextSize(30);
             textPaint.setTypeface(Typeface.create("casual", Typeface.BOLD));
             canvas.drawText("ALIENS DEFEATED: " + aliensDefeated + "/50", 0, 50, textPaint);
-            canvas.drawText("ALIENS ESCAPED: " + aliensEscaped + "/5", getWidth() - 400, 50, textPaint);
+            canvas.drawText("ALIENS ESCAPED: " + aliensEscaped + "/5", getWidth() - 300, 50, textPaint);
 
             canvas.drawBitmap(squidHero, squidHeroX, squidHeroY, drawPaint);
-            canvas.drawBitmap(backgroundStar, backgroundStarX, backgroundStarY, drawPaint);
-            canvas.drawBitmap(backgroundStar, backgroundStarX + 120, backgroundStarY + 1200, drawPaint);
-            canvas.drawBitmap(backgroundStar, backgroundStarX + 800, backgroundStarY + 1100, drawPaint);
-            canvas.drawBitmap(backgroundStar, backgroundStarX + 280, backgroundStarY + 800, drawPaint);
-            canvas.drawBitmap(backgroundStar, backgroundStarX + 560, backgroundStarY + 500, drawPaint);
-            canvas.drawBitmap(backgroundStar, backgroundStarX + 210, backgroundStarY + 250, drawPaint);
-            canvas.drawBitmap(backgroundStar, backgroundStarX + 700, backgroundStarY + 100, drawPaint);
+            canvas.drawBitmap(backgroundStar, getScreenWidth() * .13f, getScreenHeight() * .17f, drawPaint);
+            canvas.drawBitmap(backgroundStar, getScreenWidth() * .12f, getScreenHeight() * .91f, drawPaint);
+            canvas.drawBitmap(backgroundStar, getScreenWidth() * .89f, getScreenHeight() * .87f, drawPaint);
+            canvas.drawBitmap(backgroundStar, getScreenWidth() * .28f, getScreenHeight() * .64f, drawPaint);
+            canvas.drawBitmap(backgroundStar, getScreenWidth() * .56f, getScreenHeight() * .5f, drawPaint);
+            canvas.drawBitmap(backgroundStar, getScreenWidth() * .21f, getScreenHeight() * .25f, drawPaint);
+            canvas.drawBitmap(backgroundStar, getScreenWidth() * .74f, getScreenHeight() * .19f, drawPaint);
             canvas.drawBitmap(enemy1, enemy1X, enemy1Y, drawPaint);
             canvas.drawBitmap(enemy2, enemy2X, enemy2Y, drawPaint);
             canvas.drawBitmap(enemy3, enemy3X, enemy3Y, drawPaint);
